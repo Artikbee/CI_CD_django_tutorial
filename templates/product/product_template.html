@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Template</title>
+</head>
+<body>
+<h1>All data:</h1>
+<ul>
+    {% for odj in all_data %}
+        <li>{{ odj.name }}</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
