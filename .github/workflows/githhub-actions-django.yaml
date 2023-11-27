@@ -23,3 +23,6 @@ jobs:
       - name: Run Test
         run: |
           python manage.py test
+      - name: Check coverage
+        run: |
+          python coverage_cicd.py
